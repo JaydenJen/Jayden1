@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center; 
+    background-color: blue;
+    padding: 40px 10px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.links-container {
+    display: flex;
+    gap: 15px;
+    margin-left: auto; }
+
+.header-pic {
+    width: 70px;
+    height: 70px;
+}
+.line1 {
+    border: none;             
+    height: 2px;          
+    background-color: red;   
+    width: 100vw;            
+    margin: 20px 0;           
+}
+.pikachu-pic {
+    width:90%;
+    height:90%;
+}
+.blue-box {
+    background-color: blue;
+    color: white;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin:30px;
+    padding:10px;
+    border: 5px solid black;
+}
+.button1 {
+    background-color:black;
+    width:150px;
+    height:50px;
+    color:white;
+    text-align:center;
+    border:3px solid white;
+    line-height:50px;
+    margin-top:30px;
+}
