@@ -15,7 +15,12 @@ header {
 .links-container {
     display: flex;
     gap: 15px;
-    margin-left: auto; }
+    margin-left: auto; 
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
 
 .header-pic {
     width: 70px;
@@ -54,4 +59,12 @@ header {
     border:3px solid white;
     line-height:50px;
     margin-top:30px;
+}
+.paragraph1 {
+    font-size:20px;
+    margin-left: 100px;
+}
+.startfparagraph {
+    font-size:25px;
+    margin-left: 100px;
 }
