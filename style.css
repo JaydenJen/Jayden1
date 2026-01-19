@@ -16,10 +16,11 @@ header {
     display: flex;
     gap: 15px;
     margin-left: auto; 
-    color: green;
-    text-decoration: underline;
-    cursor: pointer;
-    font-weight: bold;
+}
+.links-container a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .header-pic {
